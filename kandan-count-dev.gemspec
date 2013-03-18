@@ -13,8 +13,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Kandan::Count::Dev::VERSION
 
-  gem.required_ruby_version = '>= 1.9.3'
-
   gem.post_install_message = <<-DESC
 
   \e[32mWelcome to Kandan, the slickest chat app out there!
